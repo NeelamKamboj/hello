@@ -25,7 +25,6 @@ int main()
 		cin>>myarr[i];
 	}
 	cout<<"enter one no. that you want to search in array";
-	cin>>num;
 	ans = binarysearch(myarr,0,9,num);
 	if(ans==-1)
 	{
@@ -37,4 +36,5 @@ int main()
 	}
 	return 0;
 }
+	
 	
